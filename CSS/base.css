@@ -1,0 +1,25 @@
+section#profile > .row > #basic-profile > .social-media {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#wrap > #main-content {
+    flex-grow: 1;
+}
+
+#wrap > #footer {
+    flex-shrink: 0;
+}
