@@ -23,3 +23,8 @@ html, body {
 #wrap > #footer {
     flex-shrink: 0;
 }
+
+#basic-profile > .photo > img {
+    max-width: 100%;
+    border-radius: 100%;
+}
