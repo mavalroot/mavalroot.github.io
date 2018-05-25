@@ -24,7 +24,21 @@ html, body {
     flex-shrink: 0;
 }
 
+#basic-profile {
+    text-align: center;
+}
+
 #basic-profile > .photo > img {
     max-width: 100%;
     border-radius: 100%;
+}
+
+#basic-profile > .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#basic-profile > .social-media > li {
+    margin: 5px;
 }
