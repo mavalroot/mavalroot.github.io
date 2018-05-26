@@ -57,21 +57,21 @@ nav {
     border-radius: 100%;
 }
 
-#projects > .container > div > .project {
+.mythings{
     max-width: 300px;
     margin: 4px;
 }
 
-#projects > .container > div > .project > .photo {
+.mythings> .photo {
 
 }
 
-#projects > .container > div > .project > .photo > img {
+.mythings> .photo > img {
  width: 300px;
  height: 150px;
 }
 
-#projects > div > .project > .description {
+.mythings> .description {
 
 }
 
