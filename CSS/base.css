@@ -109,10 +109,21 @@ nav {
     border-radius: 2px;
     height: 30px;
     width: 30px;
-    padding:5px;
+    justify-content: center;
+    align-items: center;
     font-size:20px;
 }
 
 .show {
-    display: block !important;
+    display: flex !important;
+}
+
+section {
+
+    padding: 100px 0px;
+}
+
+section:nth-child(odd) {
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
 }
