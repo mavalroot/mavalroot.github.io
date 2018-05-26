@@ -7,31 +7,38 @@
     <link rel="stylesheet" href="CSS/base.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand">mavalroot</a>
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <a href="/" class="navbar-brand">mavalroot</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div id="wrap">
-        <div id="main-content" class="container-fluid mt-5">
-            <section id="main">
+        <main id="main-content" class="container mt-5 pt-4">
+            <header id="main">
                 <h1>María Valderrama Rodríguez</h1>
-            </section>
+            </header>
             <section id="profile">
                 <div class="row">
                     <div id="basic-profile" class="col-sm-5 col-md-4 col-lg-3">
                         <div class="photo">
-                            <img src="http://placehold.it/200" alt="mi foto">
+                            <img src="IMG/profile.jpg" alt="mi foto">
                         </div>
-                        <ul class="social-media">
+                        <ul class="social-icons">
                             <li>
                                 <a href="https://github.com/mavalroot"><i class="fab fa-github"></i></a>
                             </li>
@@ -57,15 +64,15 @@
                     </div>
                 </div>
             </section>
-            <section id="portfolio">
+            <section id="projects">
                 <!-- Cosas que he hecho -->
-                <h2>Portfolio</h2>
-                <div>
+                <h2>My projects</h2>
+                <div class="d-flex justify-content-center justify-content-lg-start flex-wrap">
                     <div class="project">
                         <!-- Cada proyecto individual -->
                         <div class="photo">
                             <!-- ¿Imagen? -->
-                            <img src="http://placehold.it/200" alt="proyecto 1">
+                            <img src="http://placehold.it/300x150" alt="proyecto 1">
                         </div>
                         <div class="description">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. || <a href="#">Ver en github</a>
@@ -75,7 +82,7 @@
                         <!-- Cada proyecto individual -->
                         <div class="photo">
                             <!-- ¿Imagen? -->
-                            <img src="http://placehold.it/200" alt="proyecto 2">
+                            <img src="http://placehold.it/300x150" alt="proyecto 2">
                         </div>
                         <div class="description">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. || <a href="#">Ver en github</a>
@@ -89,11 +96,16 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+                <ul class="social-icons">
+                    <li>
+                        <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#109;&#97;&#118;&#97;&#108;&#114;&#111;&#111;&#116;&#46;&#101;&#115;"><i class="fas fa-envelope"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/mavalroot"><i class="fab fa-telegram"></i></a>
+                    </li>
+                </ul>
             </section>
-            <section id="other">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </section>
-        </div>
+        </main>
         <footer id="footer">
             © 2018 mavalroot
         </footer>
@@ -101,5 +113,4 @@
     <script src="JS/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="JS/bootstrap.min.js" charset="utf-8"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-</body>
 </html>
