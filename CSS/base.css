@@ -76,7 +76,7 @@ nav {
 }
 
 #back-to-top {
-    display: none;
+    display: flex;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -90,10 +90,6 @@ nav {
     justify-content: center;
     align-items: center;
     font-size:20px;
-}
-
-.show {
-    display: flex !important;
 }
 
 section {
