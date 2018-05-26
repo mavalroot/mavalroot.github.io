@@ -57,44 +57,22 @@ nav {
     border-radius: 100%;
 }
 
-#projects > div > .project {
+#projects > .container > div > .project {
     max-width: 300px;
     margin: 4px;
 }
 
-#projects > div > .project > .photo {
+#projects > .container > div > .project > .photo {
 
 }
 
-#projects > div > .project > .photo > img {
+#projects > .container > div > .project > .photo > img {
  width: 300px;
  height: 150px;
 }
 
 #projects > div > .project > .description {
 
-}
-
-#bg-particles {
-    background:linear-gradient(-90deg, #7967a6, #a367a6, #7967a6); background-size:cover;
-    background-position:center; height:250px;
-    display:flex;
-    justify-content:center;
-    align-items:center
-}
-
-#bg-particles > #particles-js {
-    flex-grow:1;
-}
-
-#bg-particles > .name {
-    position:absolute;
-}
-
-#bg-particles > .name > h1 {
-    color:white;
-    text-shadow:2px 2px 5px black;
-    text-align: center;
 }
 
 #back-to-top {
