@@ -33,6 +33,10 @@ nav {
 
 }
 
+body {
+    font-size: 18px;
+}
+
 #wrap {
     min-height: 100%;
     display: flex;
