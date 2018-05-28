@@ -9,6 +9,10 @@ a:hover {
     font-size: 30px;
 }
 
+.social-icons a, .contact-icons a {
+  color: rgb(103, 42, 84);
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -61,22 +65,24 @@ body {
     border-radius: 100%;
 }
 
-.mythings{
-    max-width: 300px;
-    margin: 4px;
+.mythings {
+  box-sizing: content-box;
+  padding:20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  max-width: 300px;
+  margin: 5px;
 }
 
-.mythings> .photo {
-
+.mythings > .photo > img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 150px;
 }
 
-.mythings> .photo > img {
- width: 300px;
- height: 150px;
-}
-
-.mythings> .description {
-
+.mythings > .description {
+  font-size: 80%;
 }
 
 #back-to-top {
@@ -97,8 +103,14 @@ body {
 }
 
 section {
-
     padding: 100px 0px;
+}
+
+@media (max-width: 768px) {
+
+  section {
+      padding: 20px 0px;
+  }
 }
 
 section:nth-child(odd) {
